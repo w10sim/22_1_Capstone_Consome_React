@@ -1,0 +1,48 @@
+.LoginButton {
+  display: inline-block;
+  color: teal;
+  padding: 10px 15px;
+  border: 1px solid #006666;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, white 50%, white 50%, teal);
+  font-size: 1rem;
+  line-height: 1.5;
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.LoginButton:hover {
+  background-position: 100% 0%;
+}
+
+.SigninButton {
+  display: inline-block;
+  color: teal;
+  padding: 10px 15px;
+  border: 1px solid #006666;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, white 50%, white 50%, teal);
+  font-size: 1rem;
+  line-height: 1.5;
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.SigninButton:hover {
+  background-position: 100% 0%;
+}
+
+.First {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}

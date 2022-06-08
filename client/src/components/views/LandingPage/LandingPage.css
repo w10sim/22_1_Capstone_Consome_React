@@ -1,0 +1,87 @@
+.First {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 75px;
+  padding: 1rem;
+  color: white;
+  background-color: teal;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LogoutButton {
+  display: inline-block;
+  color: teal;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, white 50%, white 50%, teal);
+  font-size: 1rem;
+  line-height: 1.5;
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.LogoutButton:hover {
+  background-position: 100% 0%;
+}
+
+.LandPageDIV {
+  border: 10px solid #0096c6;
+  padding: 5px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 250px;
+  width: 450px;
+  margin-left: -220px;
+  margin-top: -170px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  flex-direction: column;
+}
+
+.FIGMAButton {
+  display: inline-block;
+  color: teal;
+  padding: 10px 15px;
+  border: 1px solid #006666;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, white 50%, white 50%, teal);
+  font-size: 1rem;
+  line-height: 1.5;
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.FIGMAButton:hover {
+  background-position: 100% 0%;
+}
+
+.LandPageFORM {
+  display: flex;
+  flex-direction: column;
+}
